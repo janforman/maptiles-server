@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule crossdomain.xml %{DOCUMENT_ROOT}/crossdomain.xml [L]
+RewriteRule (.*) %{DOCUMENT_ROOT}/index.php?$1 [L,QSA]
