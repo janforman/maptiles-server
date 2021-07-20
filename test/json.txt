@@ -1,1 +1,134 @@
-{"serviceDescription":"","mapName":"Layers","description":"","copyrightText":"","supportsDynamicLayers":false,"layers":[{"id":0,"name":"Basemap","parentLayerId":-1,"defaultVisibility":true,"subLayerIds":null,"minScale":2400000,"maxScale":2000}],"tables":[],"spatialReference":{"wkid":102100,"latestWkid":3857},"singleFusedMapCache":true,"tileInfo":{"rows":512,"cols":512,"dpi":96,"format":"JPEG","compressionQuality":92,"origin":{"x":-2.0037508342787E7,"y":2.0037508342787E7},"spatialReference":{"wkid":102100,"latestWkid":3857},"lods":[{"level":0,"resolution":611.4962262813797,"scale":2311162.217155},{"level":1,"resolution":305.74811314055756,"scale":1155581.108577},{"level":2,"resolution":152.87405657041106,"scale":577790.554289},{"level":3,"resolution":76.43702828507324,"scale":288895.277144},{"level":4,"resolution":38.21851414253662,"scale":144447.638572},{"level":5,"resolution":19.10925707126831,"scale":72223.819286},{"level":6,"resolution":9.554628535634155,"scale":36111.909643},{"level":7,"resolution":4.77731426794937,"scale":18055.954822},{"level":8,"resolution":2.388657133974685,"scale":9027.977411},{"level":9,"resolution":1.1943285668550503,"scale":4513.988705},{"level":10,"resolution":0.5971642835598172,"scale":2256.994353}]},"initialExtent":{"xmin":1466298.9891998302,"ymin":6396290.373650532,"xmax":1860102.5219235625,"ymax":6490155.035565272,"spatialReference":{"cs":"pcs","wkid":102100}},"fullExtent":{"xmin":1143552.534435092,"ymin":5974272.712723543,"xmax":2269979.8892968143,"ymax":6857022.989232232,"spatialReference":{"cs":"pcs","wkid":102100}},"minScale":2311162.217155,"maxScale":2256.994353,"units":"esriMeters","supportedImageFormatTypes":"JPG","documentInfo":{"Title":"Basemap","Author":"Jan Forman","Comments":"","Subject":"","Category":"","AntialiasingMode":"Best","TextAntialiasingMode":"Force","Keywords":""},"capabilities":"Map","exportTilesAllowed":false,"supportedExtensions":""}
+{
+   "currentVersion" : 10.22,
+   "serviceDescription" : "",
+   "mapName" : "Layers",
+   "description" : "",
+   "copyrightText" : "",
+   "supportsDynamicLayers" : false,
+   "layers" : [
+      {
+         "id" : 0,
+         "name" : "Basemap",
+         "parentLayerId" : -1,
+         "defaultVisibility" : true,
+         "subLayerIds" : null,
+         "minScale" : 2311162.217155,
+         "maxScale" : 2256.994353
+      }
+   ],
+   "tables" : [],
+   "spatialReference" : {
+      "wkid" : 102100,
+      "latestWkid" : 3857
+   },
+   "singleFusedMapCache" : true,
+   "tileInfo" : {
+      "rows" : 512,
+      "cols" : 512,
+      "dpi" : 96,
+      "format" : "JPEG",
+      "compressionQuality" : 92,
+      "origin" : {
+         "x" : -20037508.342787,
+         "y" : 20037508.342787
+      },
+      "spatialReference" : {
+         "wkid" : 102100,
+         "latestWkid" : 3857
+      },
+      "lods" : [
+         {
+            "level" : 0,
+            "resolution" : 611.4962262813797,
+            "scale" : 2311162.217155
+         },
+         {
+            "level" : 1,
+            "resolution" : 305.7481131405576,
+            "scale" : 1155581.108577
+         },
+         {
+            "level" : 2,
+            "resolution" : 152.8740565704111,
+            "scale" : 577790.554289
+         },
+         {
+            "level" : 3,
+            "resolution" : 76.43702828507324,
+            "scale" : 288895.277144
+         },
+         {
+            "level" : 4,
+            "resolution" : 38.21851414253662,
+            "scale" : 144447.638572
+         },
+         {
+            "level" : 5,
+            "resolution" : 19.10925707126831,
+            "scale" : 72223.819286
+         },
+         {
+            "level" : 6,
+            "resolution" : 9.554628535634155,
+            "scale" : 36111.909643
+         },
+         {
+            "level" : 7,
+            "resolution" : 4.77731426794937,
+            "scale" : 18055.954822
+         },
+         {
+            "level" : 8,
+            "resolution" : 2.388657133974685,
+            "scale" : 9027.977411
+         },
+         {
+            "level" : 9,
+            "resolution" : 1.19432856685505,
+            "scale" : 4513.988705
+         },
+         {
+            "level" : 10,
+            "resolution" : 0.5971642835598172,
+            "scale" : 2256.994353
+         }
+      ]
+   },
+   "initialExtent" : {
+      "xmin" : 1466298.98919983,
+      "ymin" : 6396290.373650532,
+      "xmax" : 1860102.521923563,
+      "ymax" : 6490155.035565272,
+      "spatialReference" : {
+         "cs" : "pcs",
+         "wkid" : 102100
+      }
+   },
+   "fullExtent" : {
+      "xmin" : 1143552.534435092,
+      "ymin" : 5974272.712723543,
+      "xmax" : 2269979.889296814,
+      "ymax" : 6857022.989232232,
+      "spatialReference" : {
+         "cs" : "pcs",
+         "wkid" : 102100
+      }
+   },
+   "minScale" : 2311162.217155,
+   "maxScale" : 2256.994353,
+   "units" : "esriMeters",
+   "supportedImageFormatTypes" : "JPG",
+   "documentInfo" : {
+      "Title" : "Basemap",
+      "Author" : "Jan Forman",
+      "Comments" : "",
+      "Subject" : "",
+      "Category" : "",
+      "AntialiasingMode" : "Best",
+      "TextAntialiasingMode" : "Force",
+      "Keywords" : ""
+   },
+   "capabilities" : "Map",
+   "exportTilesAllowed" : false,
+   "supportedExtensions" : ""
+}
