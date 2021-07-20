@@ -1,7 +1,7 @@
 {
    "currentVersion" : 10.0,
-   "serviceDescription" : "ESRI compatible service",
-   "mapName" : "Layers",
+   "serviceDescription" : "https://github.com/janforman/maptiles-server",
+   "mapName" : "Basemap",
    "description" : "",
    "copyrightText" : "",
    "supportsDynamicLayers" : false,
