@@ -1,6 +1,6 @@
 {
-   "currentVersion" : 10.22,
-   "serviceDescription" : "",
+   "currentVersion" : 10.0,
+   "serviceDescription" : "ESRI compatible service",
    "mapName" : "Layers",
    "description" : "",
    "copyrightText" : "",
@@ -8,7 +8,7 @@
    "layers" : [
       {
          "id" : 0,
-         "name" : "Basemap",
+         "name" : "(All layers)",
          "parentLayerId" : -1,
          "defaultVisibility" : true,
          "subLayerIds" : null,
@@ -100,8 +100,8 @@
       "xmax" : 1860102.521923563,
       "ymax" : 6490155.035565272,
       "spatialReference" : {
-         "cs" : "pcs",
-         "wkid" : 102100
+         "wkid" : 102100,
+         "latestWkid" : 3857
       }
    },
    "fullExtent" : {
@@ -110,8 +110,8 @@
       "xmax" : 2269979.889296814,
       "ymax" : 6857022.989232232,
       "spatialReference" : {
-         "cs" : "pcs",
-         "wkid" : 102100
+         "wkid" : 102100,
+         "latestWkid" : 3857
       }
    },
    "minScale" : 2311162.217155,
@@ -129,6 +129,8 @@
       "Keywords" : ""
    },
    "capabilities" : "Map",
+   "supportedQueryFormats" : "JSON",
    "exportTilesAllowed" : false,
+   "maxRecordCount" : 1,
    "supportedExtensions" : ""
 }
