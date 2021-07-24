@@ -37,8 +37,6 @@ header('Content-type: ' . $mimetype);
 
 if (!@readfile($basepath . $service[1] . $tile)) {
 	// image doesn't exist
-	header('Cache-control: max-age=' . $expiresOffset);
-	header('Content-type: image/jpeg');
 	header('Content-Length: ' . (string) filesize($basepath . '404.jpg'));
 	readfile($basepath . '404.jpg');
 }
